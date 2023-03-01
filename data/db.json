@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "title": "me first blog",
+      "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, incidunt",
+      "author": "john cena",
+      "id": 1
+    },
+    {
+      "title": "me second blog",
+      "body": "Lorem ipsum dolor, pecjan odinlei eifhflmvh",
+      "author": "black panther",
+      "id": 2
+    }
+  ]
+}
