@@ -8,6 +8,7 @@ const NavNar = () => {
       <div className="links">
         <Link to="/">home</Link>
         <Link to="/create">new blog</Link>
+        <Link to="/blogs">blogs</Link>
       </div>
     </nav>
   );
