@@ -5,10 +5,17 @@ const Create = () => {
   const [body, setBody] = useState("");
   const [author, setAuthor] = useState("paradox");
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const blog = { title, body, author };
+  };
+
   return (
     <div className="create">
       <h2>add new blog</h2>
-      <form>
+
+      <form onSubmit={handleSubmit}>
         <label>blog title: </label>
         <input
           type="text"
@@ -29,10 +36,6 @@ const Create = () => {
         </select>
 
         <button>add</button>
-
-        <p>{author} </p>
-        <p>{title} </p>
-        <p>{body} </p>
       </form>
     </div>
   );
